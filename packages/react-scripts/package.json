@@ -1,6 +1,6 @@
 {
   "name": "@raegen/react-scripts",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Configuration and scripts for Create React App.",
   "repository": "raegen/create-react-app",
   "license": "MIT",
@@ -63,6 +63,9 @@
   "devDependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-beta.38"
   },
   "optionalDependencies": {
     "fsevents": "^1.1.3"
